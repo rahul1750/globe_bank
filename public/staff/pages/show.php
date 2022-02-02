@@ -5,17 +5,17 @@
 $id =$_GET['id'] ?? '1';
 ?>
 
-<?php $page_title = 'Show Subject'; ?>
+<?php $page_title = 'Show Page'; ?>
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
 
-  <a class="back-link" href="<?php echo url_for('/staff/subjects/index.php');
+  <a class="back-link" href="<?php echo url_for('/staff/pages/index.php');
   ?>">&laquo; Back to List</a>
 
-  <div class="subject show">
+  <div class="page show">
 
-    Subject ID: <?php echo h($id); ?>
+    Page ID: <?php echo h($id); ?>
 
   </div>
 </div>
